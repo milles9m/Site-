@@ -19,3 +19,7 @@ Ouvrir ensuite http://localhost:8000/. Le formulaire prépare un courriel dans l
 Le fichier `.openai/hosting.json` décrit l'hébergement Sites existant. L'import dans GitHub ne modifie pas le site actuellement publié.
 
 Le fichier README.md initial du dépôt GitHub est conservé. Les fichiers de secrets et de configuration locale sont exclus par `.gitignore`.
+
+## Collaboration à deux
+
+Lire [AGENTS.md](AGENTS.md), puis [le guide de collaboration](docs/COLLABORATION.md). Pour le blocage 403 et l’installation requise, consulter [GITHUB_ACCESS.md](docs/GITHUB_ACCESS.md).

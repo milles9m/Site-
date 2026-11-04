@@ -18,3 +18,13 @@ node_modules/
 *.log
 *.tmp
 backups/
+
+# Additional local credentials
+.netrc
+.npmrc
+.git-credentials
+id_rsa
+id_ed25519
+*.keystore
+*.jks
+__pycache__/
