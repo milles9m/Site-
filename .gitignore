@@ -1,0 +1,30 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+secrets/
+.ssh/
+.aws/
+# Local dependencies, caches and temporary files
+node_modules/
+.cache/
+.DS_Store
+*.log
+*.tmp
+backups/
+
+# Additional local credentials
+.netrc
+.npmrc
+.git-credentials
+id_rsa
+id_ed25519
+*.keystore
+*.jks
+__pycache__/
