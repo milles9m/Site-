@@ -10,6 +10,12 @@
 
 Le blocage se situe donc dans l'accès effectif de l'application à l'écriture du dépôt. Une sélection de dépôt ou une permission de compte administrateur n'accorde pas à elle seule ce droit au jeton d'application. La protection de `main` n'a pas pu être lue avec cette connexion et ne doit pas être supprimée; l'échec observé concerne déjà la création d'une autre branche.
 
+## Résolution vérifiée
+
+L’installation **178426539** de ChatGPT Codex Connector est maintenant visible pour le compte milles9m. Après installation, la création de la branche export/site-complet-2026-10-31 par le connecteur et le push Git de son code ont réussi. Le README et main n’ont pas été remplacés. L’erreur 403 initiale provenait de l’absence d’installation autorisée pour la connexion.
+
+Le problème peut réapparaître dans un second compte si sa connexion n’est pas autorisée : appliquer les étapes ci-dessous pour chaque identité.
+
 ## Intervention du propriétaire
 
 L’application a été identifiée par l’API GitHub : **ChatGPT Codex Connector**, propriétaire **openai**, avec les droits Contents et Pull requests en écriture. Son identifiant client public correspond à celui de la connexion active. Page officielle : https://github.com/apps/chatgpt-codex-connector. Si aucune installation n’apparaît, cliquer Install sur cette page, choisir milles9m puis autoriser Site-.
